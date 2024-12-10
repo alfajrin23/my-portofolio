@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+ 
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-photo5.png" alt="Om Kharche" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Al Fajrin Annas Alamsyah">Al Fajrin A Alamsyah</h1>
+
+          <p class="title">Computer System</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alfajrinannas23@gmail.com" class="contact-link">alfajrinannas23@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="https://wa.me/6285156466124" class="contact-link">+62 85156466124</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">23 july, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bandung, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/@alfajrinannas883" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/al-fajrin-annas-alamsyah-a17b5327a?trk=contact-info" class="social-link">
+              <ion-icon name="logo-LinkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/al_up/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Nama saya Al Fajrin Annas Alamsyah, fresh graduate di bidang Sistem Komputer dari Universitas Komputer Indonesia. Saya memiliki ketertarikan yang kuat di bidang teknologi, terutama dalam Data Analytics, IT Support, dan backend developer. Pengalaman saya meliputi berbagai proyek akademik, seperti menerapkan metode K-Nearest Neighbor untuk mengklasifikasi tingkat kematangan buah pepaya secara realtime dengan kamera dan mengembangkan beberapa prototipe berbasis IoT untuk smart monitoring dan control systems.
+          </p>
+
+          <p>
+            Saya juga memiliki pengalaman dalam mengembangkan sistem informasi berbasis web dan pemrograman dengan pendekatan berorientasi objek. Sebagai lulusan yang siap berkontribusi, saya terus berupaya meningkatkan kemampuan saya untuk mengejar karir di bidang teknologi yang saya minati.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analyst</h4>
+
+                <p class="service-item-text">
+                  Sebagai Analis Data, saya mengubah data menjadi wawasan yang dapat ditindak lanjuti untuk mendorong pengambilan keputusan strategis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  merancang dan mengembangkan situs web responsif yang dirancang khusus, serta memastikan pengalaman pengguna yang mulus dan kinerja yang dioptimalkan.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IoT-based</h4>
+
+                <p class="service-item-text">
+                  Pengembangan profesional ioT (Internet Of Things)
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  mengkhususkan diri dalam bidang fotografi, menciptakan visual yang menakjubkan yang mengabadikan momen-momen kehidupan.
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="testimonials">
+
+        </section>
+
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education and Sertification</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universitas Komputer Indonesia </h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                B.S in Computer System (GPA: 3.08/4.00) 
+                - Thesis: Realtime Classification System of Papaya Fruit Maturity Level Using Desktop Based K-Nearest Neighbor Method 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMAN 1 Sumberjaya</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                Mengikuti Olimpiade Bahasa Arab Lolos tingkat kabupaten dan lomba tingkat provinsi pada tahun 2018. Juga terpilih menjadi pasukan pengibar bendera (PASKIBRA) di kecamatan sumberjaya, pada HUT RI ke-72 Tahun (2017)
+              </p>
+          </ol>
+
+        </section>
+
+      
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages : HTML, CSS, JavaScript, PHP, Python, Vb.NET</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic Design	: Adobe Photoshop, CorelDraw</h5>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Libraries / Framework: tkinter, PIL, cv2, Pandas, Numpy, Statsmodels, Matplotlib. </h5>
+                
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tools: Jupyter, Vs Code, Arduino IDE, Selenium IDE, Katalon, Minitab, Loker Studio  </h5>
+                
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Modeling Algorithms: K Nearest Neighbor, Regression, Support Vector Machine </h5>
+                
+            </li>
+
+            <li class="skills-item"></li>
+
+              <div class="title-wrapper">
+                <h5 class="h5">Others: Algorithms and Data Structures,Software Testing, Networking, Hardware/Software Maintenance, Knowledge of Arduino and rasphberryPi, Microsoft Excel, and Microsoft Office.  </h5>
+                
+            </li>
+             
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>internet of things</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>internet of things</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="internet of things">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-16.png" alt="Line follower robot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Line Follower using Atmega8535 Microcontroller</h3>
+
+                <p class="project-category">internet of things</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="internet of things">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-18.png" alt="Line follower robot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IoT-Based Smart Parking Web Monitoring System</h3>
+
+                <p class="project-category">internet of things</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project-10.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Academic Information System (for universities)</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project-12.png" alt="Netflix" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aplikasi Stok Barang</h3>
+
+                <p class="project-category">applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project-15.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">flappy bird game using vb.net</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project-13.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sistem Klasifikasi buah pepaya</h3>
+
+                <p class="project-category">applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project-14.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">student attendance application using vb.net</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Library</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-9.jpg" alt="Exploring ARIMA Time Series Method for Forecasting" loading="lazy">
+                </figure>
+                
+                <div class="blog-content">
+                
+                  <div class="blog-meta">
+                    <p class="blog-category">Photography</p>
+                
+                    <span class="dot"></span>
+                
+                    <time datetime="2024-10-26">jan 01, 2024</time>
+                  </div>
+                
+                  <h3 class="h3 blog-item-title">crowd of people</h3>
+                
+                  <p class="blog-text">
+                    taking photos on New Year's Day in Bandung
+                    
+                  </p>
+                
+                </div>
+                
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-17.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Photography</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">aug 23, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">My Camera</h3>
+
+                  <p class="blog-text">
+                    my camera first to capture the moment.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-10.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Photography</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">jul 07, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">pool billiards</h3>
+
+                  <p class="blog-text">
+                    taking photos while playing billiards at forklik bandung
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-11.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Photography</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">jan 14, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">view at night</h3>
+
+                  <p class="blog-text">
+                    taking photos at night in gasibu bandung
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+  
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-15.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">jun 28, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Beach</h3>
+
+                  <p class="blog-text">
+                    taking a photo view from the back at garut beach
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </li>
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-13.jpg" alt="Design digest #79" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Design</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">feb 14, 2024</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">restaurant</h3>
+
+                <p class="blog-text">
+                  taking photos at restaurant paskal bandung
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126203.61876869533!2d107.57311610412067!3d-6.914744454878177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e63cd79e9df3%3A0x401e8f1fc28c540!2sBandung%2C%20West%20Java%2C%20Indonesia!5e0!3m2!1sen!2sid!4v1698321807000!5m2!1sen!2sid"
+
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form class="form" data-form>
+            <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+            </button>
+        </form>
+        
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+  <!-- Load EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "yo4Q7Uk-EumkqPJIz",
+            });
+        })();
+    </script>
+  
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
